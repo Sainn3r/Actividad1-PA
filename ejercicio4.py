@@ -33,7 +33,7 @@ def main():
 
         print("\nConteo por vocal:")
         for vocal in vocales:
-            cantidad = texto.lower().count(vocal)  # cuenta minúsculas y mayúsculas
+            cantidad = texto.lower().count(vocal)  
             contador_total += cantidad
             print(f"  {vocal}: {cantidad}")
 
