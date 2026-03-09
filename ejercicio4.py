@@ -31,13 +31,13 @@ def main():
         vocales = "aeiou"
         contador_total = 0
 
-        print("\nConteo por vocal:")
+        print("Conteo por vocal:")
         for vocal in vocales:
             cantidad = texto.lower().count(vocal)  
             contador_total += cantidad
             print(f"  {vocal}: {cantidad}")
 
-        print(f"\nTotal de vocales: {contador_total}")
+        print(f"Total de vocales: {contador_total}")
     
 if __name__ == "__main__":
     main()   
